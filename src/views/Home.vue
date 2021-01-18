@@ -86,6 +86,8 @@ export default defineComponent({
 
         const newColor = getColor(this.activeLight.color, this.prevColor)
 
+        this.$router.push('/' + newColor.color)
+
         this.activeLight = newColor
 
       }
