@@ -1,5 +1,5 @@
 type GetColorResponse = {
-    color: string
+    color: 'red' | 'green' | 'yellow'
     count: number
 }
 

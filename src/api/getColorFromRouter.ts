@@ -1,5 +1,5 @@
 type GetColorFromRouterResponse = {
-    color: string
+    color: 'red' | 'green' | 'yellow'
     count: number
 }
 
